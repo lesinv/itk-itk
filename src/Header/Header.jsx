@@ -1,4 +1,5 @@
-import s from "./styles.module.scss";
+import s from "./Header.module.scss";
+import Button from '@material-ui/core/Button';
 
 const Header = () => {
   return (
@@ -7,6 +8,9 @@ const Header = () => {
         src='https://cdn.logo.com/hotlink-ok/logo-social-sq.png'
         alt='logo'
       />
+      <Button variant="contained" color="primary">
+        Hello World
+      </Button>
     </div>
   );
 };

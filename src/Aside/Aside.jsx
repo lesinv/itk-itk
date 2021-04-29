@@ -1,4 +1,4 @@
-import s from "./styles.module.scss";
+import s from "./Aside.module.scss";
 
 const Aside = () => {
   return (
