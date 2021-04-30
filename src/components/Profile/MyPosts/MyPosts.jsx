@@ -6,10 +6,8 @@ const MyPosts = () => {
   return (
     <>
       <div className={s.createPost}>
-        <textarea className={s.postTextarea}></textarea>
-        <Button className={s.postBtn} variant='contained' color='primary'>
-          Add post
-        </Button>
+        <textarea className={s.postTextarea} />
+        <Button variant='contained' color='primary'>Add post</Button>
       </div>
       <div className={s.postsContainer}>
         <Post />
