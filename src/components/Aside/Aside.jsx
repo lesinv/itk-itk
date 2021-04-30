@@ -1,13 +1,14 @@
 import s from "./Aside.module.scss";
+import { Link } from "react-router-dom";
 
 const Aside = () => {
   return (
     <ul className={s.asideContainer}>
       <li>
-        <a href='/'>Profile</a>
+        <Link to="/profile">Profile</Link>
       </li>
       <li>
-        <a href='/'>Messages</a>
+        <Link to="/messages">Messages</Link>
       </li>
       <li>
         <a href='/'>News</a>
