@@ -1,5 +1,5 @@
 import s from "./Profile.module.scss";
-import profileBg from "./../assets/images/cats.jpg";
+import profileBg from "../../assets/images/cats.jpg";
 import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {

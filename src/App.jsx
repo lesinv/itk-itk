@@ -1,9 +1,9 @@
 import CssBaseline from "@material-ui/core/CssBaseline";
 import s from "./App.module.scss";
-import Header from "./Header/Header";
-import Footer from "./Footer/Footer";
-import Aside from "./Aside/Aside";
-import Profile from "./Profile/Profile";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Aside from "./components/Aside/Aside";
+import Profile from "./components/Profile/Profile";
 
 const App = () => {
   return (
